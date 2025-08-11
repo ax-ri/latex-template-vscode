@@ -1,0 +1,14 @@
+{
+  "name": "latex-env",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "james-yu.latex-workshop",
+        "valentjn.vscode-ltex",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "dockerFile": "Dockerfile",
+  "runArgs": ["--ulimit=nofile=1048576:1048576"]
+}

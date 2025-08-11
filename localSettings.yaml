@@ -1,0 +1,48 @@
+# settings for latexindent
+# call it with -l switch to take this file into account
+
+defaultIndent: "  "
+
+indentPreamble: 1
+
+indentAfterHeadings:
+  part:
+    indentAfterThisHeading: 1
+    level: 1
+  chapter:
+    indentAfterThisHeading: 1
+    level: 2
+  chapter*:
+    indentAfterThisHeading: 1
+    level: 2
+  nchapter:
+    indentAfterThisHeading: 1
+    level: 2
+  apdxchapter:
+    indentAfterThisHeading: 1
+    level: 2
+  section:
+    indentAfterThisHeading: 1
+    level: 3
+  section*:
+    indentAfterThisHeading: 1
+    level: 3
+  nsection:
+    indentAfterThisHeading: 1
+    level: 3
+  subsection:
+    indentAfterThisHeading: 1
+    level: 4
+  subsection*:
+    indentAfterThisHeading: 1
+    level: 4
+  nsubsection:
+    indentAfterThisHeading: 1
+    level: 4
+
+noIndentBlock:
+  noindent: 1
+
+removeTrailingWhitespace:
+  beforeProcessing: 0
+  afterProcessing: 1
